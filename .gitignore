@@ -1,3 +1,4 @@
 test_out/
 batch_scripts/
 envs/
+__pycache__/
