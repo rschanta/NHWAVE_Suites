@@ -10,12 +10,12 @@ def get_design_matrix():
             # Size of (x,y,z) (ie- number of points)
             "Mglob": "DYNAMIC",
             "Nglob": "1",
-            "Kglob": "12",
+            "Kglob": "15",
             # Grid spacing in (x,y)
             "DX": "DYNAMIC",
             "DY": "DYNAMIC",
             # Processors for MPI topology
-            "PX": "16",
+            "PX": "20",
             "PY": "1",
         },
     
