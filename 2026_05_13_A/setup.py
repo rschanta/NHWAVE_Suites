@@ -1,20 +1,20 @@
 import os
-import nhwave_amp as nh
+import nhwave_amp as fds
 
 
 
 #%% MAIN
-d = nh.setup_key_dirs(name='Hopkins_2D_new',
+d = fds.setup_key_dirs(name='2026_05_13_A',
                    main_dir = '.', 
-                   input_dir = './test_out/inputs', 
-                   log_dir='./test_out/logs',
-                   bathy_dir = './test_out/bathy',
-                   station_dir = './test_out/stations',
-                   friction_dir= './test_out/friction',
-                   result_folder_dir = './test_out/output_raw',
-                   nc_dir = './test_out/nc_files',
-                   nc_sta_dir='./test_out/nc_sta_files',
-                   NH_ex = ".",
-                   conda = ".",
-                   input_sum_dir='./test_out/input_summary',
-                   dir_add_ons={'figs': './test_out/figures'})
+                   input_dir = '/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/inputs', 
+                   log_dir='/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/logs',
+                   bathy_dir = '/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/bathy',
+                   station_dir = '/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/stations',
+                   friction_dir= '/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/friction',
+                   result_folder_dir = '/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/output_raw',
+                   nc_dir = '/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/nc_files',
+                   nc_sta_dir='/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/nc_sta_files',
+                   NH_ex = "/mmfs1/gscratch/derakhti/users/rschanta/models/NHWAVE/NHWAVE_JIM/src/nhwave",
+                   conda = "schpy",
+                   input_sum_dir='/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/input_summary',
+                   dir_add_ons={'figs': '/mmfs1/gscratch/derakhti/users/rschanta/outputs/2026_05_13_A/figures'})
