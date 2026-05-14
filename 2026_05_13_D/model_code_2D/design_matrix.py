@@ -83,7 +83,7 @@ def get_design_matrix():
             # Type of Wavemaker
             "WAVEMAKER": "LEF_LIN",
                 # Wavemaker: LEF/RIG/INT/FLU/WAV
-                "AMP": ["1.50"],
+                "AMP": ["1.00"],
                 "PER": ["4.0"],
                 "DEP": ["5.0"],
                 "THETA": "0.0",
@@ -134,8 +134,8 @@ def get_design_matrix():
              "PI_1": "2.0",    # Length of L1 flat portion (in wavelengths)
              "PI_2": "1.50",    # Length of L2 flat portion (in wavelengths)
              "BETA_1": "100",  # DX = wavelength/ BETA_1
-             "slope": "0.1",    # Slope of sloping portion
-             "TAU_1": "50",    # Simulation time (in periods)
+             "slope": "0.066666",    # Slope of sloping portion
+             "TAU_1": "30",    # Simulation time (in periods)
              "bathy_path": "/mmfs1/gscratch/derakhti/users/rschanta/data/DEM3D_d6_T4_H0.5_clean.nc",
              "mult_factor": ["0.0","0.5","1.0"]
         }

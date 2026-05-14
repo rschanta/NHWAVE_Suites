@@ -5,7 +5,7 @@ import nhwave_amp as nh
 
 #%% Load in environment variable
 from dotenv import load_dotenv
-load_dotenv('./envs/2026_05_13_C.env') 
+load_dotenv('./envs/2026_05_13_D.env') 
 
 
 
